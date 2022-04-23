@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Profile</string>
+    <string name="my_profile">My Profile</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="text_intro">Welcome To Profile App</string>
+    <string name="desc_intro">Temukan hal menarik tentang saya\ndi aplikasi ini</string>
+    <string name="text_start">Mulai</string>
+    <string name="text_register">Daftar</string>
+    <string name="text_password">Masukan password anda</string>
+    <string name="text_email">Masukan email anda</string>
+    <string name="text_login">Login</string>
+    <string name="text_make_account">Buat Akun</string>
+    <string name="text_back_login">Kembali ke menu login</string>
+    <string name="text_profile">Profile</string>
+    <string name="text_nim">NIM : 10119102</string>
+    <string name="text_name">Nama: Muhammad Alfiqh Nugraha</string>
+    <string name="text_class">Kelas: IF-3</string>
+    <string name="text_backtohome">Kembali ke Menu utama</string>
+</resources>
