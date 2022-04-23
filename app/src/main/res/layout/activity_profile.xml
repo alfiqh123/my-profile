@@ -76,6 +76,25 @@
             android:textStyle="bold" />
     </RelativeLayout>
 
+    <RelativeLayout
+        android:id="@+id/cardDesc"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="6dp"
+        android:background="@drawable/bg_corner_20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardClass" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_descd"
+            android:textColor="@color/black_overlay"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnBackHome"
         android:layout_width="350dp"
@@ -86,6 +105,6 @@
         app:cornerRadius="20dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/cardClass"/>
+        app:layout_constraintTop_toBottomOf="@id/cardDesc"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
